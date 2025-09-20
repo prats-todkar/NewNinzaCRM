@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test  name="Test">
     <classes>
-      <class name="com.ninza.crm.producttest.CreateProductMam"/>
-      <class name="com.ninza.crm.campaignstest.CreateCampaignMam"/>
+      <class name="com.ninza.crm.producttest.CreateProductTestWithGroups"/>
+      <class name="com.ninza.crm.campaignstest.CreateCampaignTestWithGroups"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
