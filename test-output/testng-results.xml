@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-19T23:06:47 IST" name="Suite" finished-at="2025-09-19T23:06:59 IST" duration-ms="12080">
+  <suite started-at="2025-09-21T15:35:33 IST" name="Default suite" finished-at="2025-09-21T15:35:33 IST" duration-ms="55">
     <groups>
-      <group name="regression">
-        <method signature="CreateCampaignTestWithGroups.createCampaignWithExpectedCloseDateTest()[pri:0, instance:com.ninza.crm.campaignstest.CreateCampaignTestWithGroups@6cf0e0ba]" name="createCampaignWithExpectedCloseDateTest" class="com.ninza.crm.campaignstest.CreateCampaignTestWithGroups"/>
-        <method signature="CreateProductTestWithGroups.CreateProductWithMandatoryFieldTest()[pri:0, instance:com.ninza.crm.producttest.CreateProductTestWithGroups@75d4a5c2]" name="CreateProductWithMandatoryFieldTest" class="com.ninza.crm.producttest.CreateProductTestWithGroups"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="CreateCampaignTestWithGroups.createCamapignWithMandataoryFieldsTest()[pri:0, instance:com.ninza.crm.campaignstest.CreateCampaignTestWithGroups@6cf0e0ba]" name="createCamapignWithMandataoryFieldsTest" class="com.ninza.crm.campaignstest.CreateCampaignTestWithGroups"/>
-        <method signature="CreateProductTestWithGroups.CreateProductWithMandatoryFieldTest()[pri:0, instance:com.ninza.crm.producttest.CreateProductTestWithGroups@75d4a5c2]" name="CreateProductWithMandatoryFieldTest" class="com.ninza.crm.producttest.CreateProductTestWithGroups"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-09-19T23:06:47 IST" name="Test1" finished-at="2025-09-19T23:06:59 IST" duration-ms="12080">
-      <class name="com.ninza.crm.campaignstest.CreateCampaignTestWithGroups">
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:com.ninza.crm.campaignstest.CreateCampaignTestWithGroups@6cf0e0ba]" started-at="2025-09-19T23:06:47 IST" name="BeforeTest" finished-at="2025-09-19T23:06:47 IST" duration-ms="0" status="PASS">
+    <test started-at="2025-09-21T15:35:33 IST" name="Default test" finished-at="2025-09-21T15:35:33 IST" duration-ms="55">
+      <class name="practice.AsserionNull">
+        <test-method signature="test()[pri:0, instance:practice.AsserionNull@3ce1e309]" started-at="2025-09-21T15:35:33 IST" name="test" finished-at="2025-09-21T15:35:33 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.ninza.crm.campaignstest.CreateCampaignTestWithGroups@6cf0e0ba]" started-at="2025-09-19T23:06:47 IST" name="beforeClass" finished-at="2025-09-19T23:06:49 IST" duration-ms="1842" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ninza.crm.campaignstest.CreateCampaignTestWithGroups@6cf0e0ba]" started-at="2025-09-19T23:06:49 IST" name="beforeMethod" finished-at="2025-09-19T23:06:51 IST" duration-ms="2670" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="createCamapignWithMandataoryFieldsTest()[pri:0, instance:com.ninza.crm.campaignstest.CreateCampaignTestWithGroups@6cf0e0ba]" started-at="2025-09-19T23:06:51 IST" name="createCamapignWithMandataoryFieldsTest" finished-at="2025-09-19T23:06:53 IST" duration-ms="2096" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createCamapignWithMandataoryFieldsTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.ninza.crm.campaignstest.CreateCampaignTestWithGroups@6cf0e0ba]" started-at="2025-09-19T23:06:53 IST" name="afterMethod" finished-at="2025-09-19T23:06:55 IST" duration-ms="1415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ninza.crm.campaignstest.CreateCampaignTestWithGroups@6cf0e0ba]" started-at="2025-09-19T23:06:55 IST" name="beforeMethod" finished-at="2025-09-19T23:06:56 IST" duration-ms="1277" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="createCampaignWithExpectedCloseDateTest()[pri:0, instance:com.ninza.crm.campaignstest.CreateCampaignTestWithGroups@6cf0e0ba]" started-at="2025-09-19T23:06:56 IST" name="createCampaignWithExpectedCloseDateTest" finished-at="2025-09-19T23:06:57 IST" duration-ms="1366" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createCampaignWithExpectedCloseDateTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.ninza.crm.campaignstest.CreateCampaignTestWithGroups@6cf0e0ba]" started-at="2025-09-19T23:06:57 IST" name="afterMethod" finished-at="2025-09-19T23:06:59 IST" duration-ms="1045" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.ninza.crm.campaignstest.CreateCampaignTestWithGroups@6cf0e0ba]" started-at="2025-09-19T23:06:59 IST" name="afterClass" finished-at="2025-09-19T23:06:59 IST" duration-ms="329" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.ninza.crm.campaignstest.CreateCampaignTestWithGroups@6cf0e0ba]" started-at="2025-09-19T23:06:59 IST" name="afterTest" finished-at="2025-09-19T23:06:59 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.ninza.crm.campaignstest.CreateCampaignTestWithGroups -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test -->
+      </class> <!-- practice.AsserionNull -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

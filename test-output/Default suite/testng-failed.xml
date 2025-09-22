@@ -3,20 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ninza.crm.campaignstest.CreateCampaignTestWithGroups">
+      <class name="practice.AsserionNull">
         <methods>
-          <include name="createCampaignWithExpectedCloseDateTest"/>
-          <include name="beforeMethod"/>
-          <include name="createCamapignWithMandataoryFieldsTest"/>
-          <include name="beforeSuite"/>
-          <include name="BeforeTest"/>
-          <include name="beforeClass"/>
-          <include name="afterSuite"/>
-          <include name="afterClass"/>
-          <include name="afterTest"/>
-          <include name="afterMethod"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.ninza.crm.campaignstest.CreateCampaignTestWithGroups -->
+      </class> <!-- practice.AsserionNull -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
